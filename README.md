@@ -2,7 +2,7 @@
 
 ## Sistema Inteligente de Análise de Movimentos para CrossFit
 
-Este repositório contém um projeto de Visão Computacional e Inteligência Artificial desenvolvido para oferecer feedback em tempo real e contagem de repetições para exercícios de CrossFit. O objetivo principal é ajudar atletas a aprimorar a forma, prevenir lesões e acompanhar o progresso com precisão. Atualmente, o sistema foca na **análise detalhada do agachamento (Squat)**, com planos de expansão para outros movimentos.
+Este repositório contém um projeto de Visão Computacional e Inteligência Artificial desenvolvido para oferecer feedback em tempo real e contagem de repetições para exercícios de CrossFit. O objetivo principal é ajudar pessoas a aprimorar a forma, prevenir lesões e acompanhar o progresso com precisão. Atualmente, o sistema foca na **análise detalhada do agachamento (Squat)**, com planos de expansão para outros movimentos.
 
 ---
 
