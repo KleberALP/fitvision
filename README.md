@@ -45,8 +45,8 @@ Para configurar o ambiente e rodar o projeto em sua máquina, siga os passos aba
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU_USUARIO/crossfit-ai-coach.git](https://github.com/SEU_USUARIO/crossfit-ai-coach.git) # Lembre-se de alterar SEU_USUARIO pelo seu usuário do GitHub e o nome do repositório se for diferente.
-    cd crossfit-ai-coach
+    git clone [https://github.com/SEU_USUARIO/fitvision.git](https://github.com/SEU_USUARIO/fitvision.git) # Lembre-se de alterar SEU_USUARIO pelo seu usuário do GitHub e o nome do repositório se for diferente.
+    cd fitvision
     ```
 2.  **Crie e ative um ambiente virtual (altamente recomendado):**
     ```bash
