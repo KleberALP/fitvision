@@ -1,4 +1,4 @@
-# crossfit-ai-coach
+# fitvision
 
 ## Sistema Inteligente de Análise de Movimentos para CrossFit
 
