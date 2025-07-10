@@ -30,14 +30,15 @@ Este repositório contém um projeto de Visão Computacional e Inteligência Art
     * Joelho ultrapassando a ponta do pé.
     * Profundidade insuficiente no agachamento (ajustável por nível).
 * **Filtragem Inteligente de Pose:** Evita contagens falsas e ruídos ao exigir a detecção de uma pose de corpo inteiro com visibilidade suficiente dos pontos-chave, garantindo que apenas pessoas reais e bem posicionadas sejam processadas.
-* **Seleção de Nível:** Permite ajustar a dificuldade e os requisitos de profundidade do agachamento (`"beginner"`, `"medium"`, `"olympic"`).
+* **Seleção de Nível:** Permite ajustar a dificuldade e os requisitos de profundidade do agachamento (`"beginner"`, `"medium"`, `"advanced"`).
 
 ### Tecnologias Utilizadas
 
-* **Python:** Linguagem de programação principal.
+* **Python 3.10:** Linguagem de programação principal.
 * **MediaPipe Pose:** Framework do Google para detecção de pose humana de alta fidelidade em tempo real.
 * **OpenCV (cv2):** Biblioteca amplamente utilizada para processamento de imagem e vídeo.
 * **NumPy:** Biblioteca fundamental para operações numéricas e array multidimensionais.
+* **PyQt6** Biblioteca para desenvolvimento de interface gráfica para o usuário.
 
 ### Instalação
 
@@ -58,7 +59,7 @@ Para configurar o ambiente e rodar o projeto em sua máquina, siga os passos aba
     ```
 3.  **Instale as dependências:**
     ```bash
-    pip install mediapipe opencv-python numpy
+    pip install -r requirements.txt
     ```
 
 ### Como Rodar o Projeto
@@ -68,14 +69,14 @@ Após a instalação das dependências e com o ambiente virtual ativado:
 1.  Certifique-se de que sua webcam está conectada e disponível para uso.
 2.  Execute o arquivo principal do projeto:
     ```bash
-    python main.py
+    python app_gui.py
     ```
 3.  Uma janela com a visualização da sua câmera será aberta. Para encerrar o programa, basta pressionar a tecla `q` a qualquer momento.
 
 ### Uso
 
 * **Posicionamento Ideal:** Para que o sistema funcione corretamente, é crucial que seu **corpo esteja completamente visível** para a câmera (da cabeça aos pés). Mantenha uma distância adequada da câmera para garantir um enquadramento completo. Uma boa iluminação ambiente é fundamental para a precisão da detecção de pose.
-* **Seleção de Nível:** No arquivo `main.py`, você pode ajustar a variável `selected_level` (no início do código) para escolher a dificuldade do agachamento que deseja praticar: `"beginner"` (iniciante), `"medium"` (médio) ou `"olympic"` (olímpico/completo).
+* **Seleção de Nível:** No arquivo `main.py`, você pode ajustar a variável `selected_level` (no início do código) para escolher a dificuldade do agachamento que deseja praticar: `"beginner"` (iniciante), `"medium"` (médio) ou `"advanced"` (avançado/completo).
 * **Feedback Visual:** Observe as mensagens exibidas na tela. Elas fornecerão a contagem das repetições e alertas em tempo real sobre a sua forma, ajudando-o a corrigir erros durante o exercício.
 
 ### Próximos Passos (Futuras Expansões)
@@ -83,7 +84,6 @@ Após a instalação das dependências e com o ambiente virtual ativado:
 * Adicionar suporte para a análise de outros movimentos de CrossFit e exercícios funcionais.
 * Desenvolver funcionalidades para registro de sessões de treino e visualização gráfica do progresso ao longo do tempo.
 * Melhorar a robustez da detecção de pose em diversas condições de iluminação e diferentes ângulos de câmera.
-* Implementar uma Interface Gráfica do Usuário (GUI) para uma experiência mais intuitiva e amigável.
 * Integrar modelos de Machine Learning mais avançados para reconhecimento de padrões de movimento complexos.
 
 ---
